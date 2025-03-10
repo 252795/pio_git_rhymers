@@ -1,0 +1,18 @@
+# Pliki kompilacji
+*.class
+*.jar
+*.war
+*.ear
+
+# Pliki IDE
+*.iml
+.idea/
+.vscode/
+
+# Katalogi budowania
+bin/
+target/
+out/
+
+# Pliki zależności
+*.log
