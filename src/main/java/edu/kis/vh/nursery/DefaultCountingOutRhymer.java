@@ -15,6 +15,7 @@ public class DefaultCountingOutRhymer {
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
+        //TODO: brak obsługi błędów lub komunikatu przy próbie dodania do pełnego stosu
     }
 
     public boolean callCheck() {
