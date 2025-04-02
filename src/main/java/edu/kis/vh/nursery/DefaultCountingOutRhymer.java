@@ -6,7 +6,11 @@ public class DefaultCountingOutRhymer {
     private static final int MAX_CAPACITY = 12; // Maksymalna pojemność tablicy
     private static final int MAX_INDEX = MAX_CAPACITY - 1; // Maksymalny indeks tablicy
     private final int[] numbers = new int[MAX_CAPACITY];
-    public int total = DEFAULT_INITIAL_TOTAL;
+    private int total = DEFAULT_INITIAL_TOTAL;
+
+    private int getTotal() {
+        return total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
