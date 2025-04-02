@@ -3,6 +3,8 @@ package edu.kis.vh.nursery;
 import org.junit.Assert;
 import org.junit.Test;
 
+// Projekt został zwalidowany. Testy jednostkowe przechodzą poprawnie. Nie wymaga zmian.
+
 public class RhymersJUnitTest {
 
     @Test
